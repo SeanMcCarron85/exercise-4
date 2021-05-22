@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Exercise 4</title>
+</head>
+<body>
+    <form id="mint-form">
+        <div>
+            <label for="amount">How many?</label>
+            <input type="number" name="amount" id="amount">
+        </div>
+        <div>
+            <label for="type">Which coin?</label>
+            <select name="type" id="type">
+                <option value="quarter">Quarter</option>
+                <option value="dime">Dime</option>
+                <option value="nickel">Nickel</option>
+                <option value="penny">Penny</option>
+            </select>
+            <!-- <h4>Which Coin?</h4>
+            <label for="quarter">Quarter</label>
+            <input type="radio" name="type" id="quarter" value="quarter">
+            <label for="dime">Dime</label>
+            <input type="radio" name="type" id="dime" value="dime">
+            <label for="nickel">Nickel</label>
+            <input type="radio" name="type" id="nickel" value="nickel">
+            <label for="penny">Penny</label>
+            <input type="radio" name="type" id="penny" value="penny"> -->
+        </div>
+        <button type="submit">Make Money!</button>
+    </form>
+
+    <section class="coin-wrapper">
+        <h2 class="coin-total"></h2>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>
